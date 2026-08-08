@@ -1,6 +1,9 @@
 # EasyHomeMG
 
-A home server management platform with a clean Docker-based development environment.
+A home server management platform with.
+<!-- lines_of_code_start -->
+<!-- lines_of_code_end -->
+Lines of Code
 
 ## Project Structure
 
