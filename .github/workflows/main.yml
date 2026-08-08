@@ -20,17 +20,18 @@ jobs:
 
       - name: Zeilen zaehlen und README aktualisieren
         run: |
-          # 1. Count only actual code lines (excluding blanks and comments)
+          # 1. Reine Codezeilen zählen
           LINES=$(cloc . --json | jq '.SUM.code')
           echo "Found $LINES lines of code."
           
-          # 2. Generate the Shields.io badge URL
+          # 2. URL ohne Leerzeichen formatieren (Shields.io nutzt Unterstriche für Leerzeichen)
           BADGE_URL="https://shields.io"
           BADGE_MARKDOWN="![Lines of Code]($BADGE_URL)"
           
-          # 3. Inject the badge into the README placeholder
+          # 3. In die README einfügen
           sed -i "/<!-- lines_of_code_start -->/,/<!-- lines_of_code_end -->/{//!d;}" README.md
           sed -i "/<!-- lines_of_code_start -->/a $BADGE_MARKDOWN" README.md
+
 
       - name: Aenderungen committen und pushen
         run: |
