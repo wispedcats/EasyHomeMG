@@ -12,14 +12,6 @@ A home server management platform with a clean Docker-based development environm
 - `.env.example`: environment variable template
 - `LANGUAGE_USAGE.md`: architecture and technology guidance
 
-## What is included
-
-- Node 26 environment for frontend and Node.js backend
-- Python 3.14 environment for the FastAPI backend
-- PostgreSQL database for app config and installed app metadata
-- Docker Compose setup for easy local startup
-- Example app install workflow for Nextcloud
-
 ## Setup
 
 1. Make the script executable:
@@ -41,20 +33,7 @@ A home server management platform with a clean Docker-based development environm
    - `http://localhost:3000`
 5. Open the Python API at:
    - `http://localhost:8000`
-6. Open the Node API at:
-   - `http://localhost:8001`
 
-## Development Notes
-
-- Edit the frontend in `frontend/`
-- Edit the main backend in `backend/app/`
-- Edit the Node API in `backend/node/src/`
-- Use PostgreSQL on `localhost:5432`
-
-## Database and App Installation
-
-- `LANGUAGE_USAGE.md` contains the app installation model and Nextcloud example.
-- Use PostgreSQL tables like `available_apps`, `installed_apps`, and `app_install_history`.
 
 ## Recommended Commands
 
