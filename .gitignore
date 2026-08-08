@@ -1,0 +1,33 @@
+# Python
+backend/venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Node
+node_modules/
+**/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# Databases and runtime
+*.log
+db_data/
+*.sqlite
+*.sqlite3
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

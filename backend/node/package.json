@@ -1,0 +1,12 @@
+{
+  "name": "easyhomemg-node-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "pg": "^8.11.0"
+  }
+}

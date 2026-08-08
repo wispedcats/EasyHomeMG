@@ -1,0 +1,10 @@
+venv
+__pycache__/
+*.pyc
+npm-debug.log
+Dockerfile
+docker-compose.yaml
+.git
+.gitignore
+.env
+frontend/
