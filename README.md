@@ -2,6 +2,7 @@
 
 A home server management platform with.
 <!-- lines_of_code_start -->
+![Lines of Code](https://shields.io)
 <!-- lines_of_code_end -->
 Lines of Code
 
