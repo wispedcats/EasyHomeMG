@@ -33,6 +33,10 @@ services:
       - PYTHONUNBUFFERED=1
     volumes:
       - ./backend:/usr/src/app
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro
+      - /etc/shadow:/etc/shadow:ro
+      - /etc/pam.d:/etc/pam.d:ro
     depends_on:
       - db
 

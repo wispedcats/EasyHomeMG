@@ -11,6 +11,7 @@ frontend/.next/
 frontend/dist/
 frontend/.vite/
 frontend/build/
+backend/node/
 coverage/
 
 # Environment
