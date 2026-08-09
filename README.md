@@ -2,7 +2,7 @@
 
 A home server management platform with.
 <!-- lines_of_code_start -->
-![Lines of Code](https://img.shields.io/badge/Lines_of_Code-7703-blue)
+![Lines of Code](https://img.shields.io/badge/Lines_of_Code-7702-blue)
 <!-- lines_of_code_end -->
 
 
